@@ -483,7 +483,7 @@
         reviewList.appendChild(reviewCard);
       });
 
-      document.getElementById('score-text').textContent = `${score} / ${currentQuestions.length}`;
+      document.getElementById('score-text').textContent = `${score*2} / ${currentQuestions.length*2}`;
       const pct = ((score / currentQuestions.length) * 100).toFixed(1);
       document.getElementById('percentage-text').textContent = `Final Score: ${pct}%`;
     }
