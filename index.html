@@ -374,7 +374,6 @@
       currentIndex = index;
       const q = currentQuestions[index];
       document.getElementById('q-label').textContent = `Question ${index + 1} of ${currentQuestions.length}`;
-      document.getElementById('q-origin').textContent = `Bank ID: Q${q.id} / 300`;
       document.getElementById('q-text').textContent = q.q;
 
       const container = document.getElementById('options-container');
